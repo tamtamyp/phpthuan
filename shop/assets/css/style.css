@@ -41,14 +41,14 @@
     li.menu-item a {
         padding-right: 17px;
         padding-left: 17px;
-        text-decoration: none
+        text-decoration: none;
     }
     
     div.logo {
         float: left;
     }
     
-    div.content {
+    div.header-content {
         border-spacing: 55px;
     }
     
@@ -56,7 +56,7 @@
         float: left;
     }
     
-    div.wishlist {}
+    div.cart {}
     
     div.logo img {
         width: 150px;
@@ -70,4 +70,24 @@
     ul.main-menu {
         text-align: center;
         float: left;
+    }
+    
+    div.content {
+        float: left;
+        width: 75%;
+    }
+    
+    div.content table tr td img {
+        width: 300px;
+        height: 200px;
+    }
+    
+    a.featured {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
     }
